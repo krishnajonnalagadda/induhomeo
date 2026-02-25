@@ -1,0 +1,21 @@
+{
+  "name": "IH Clinic by Dr. Indu Rekha",
+  "short_name": "IH Clinic",
+  "description": "Women & child care in homeopathy. Tirupati.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f4",
+  "theme_color": "#c9a9a6",
+  "icons": [
+    {
+      "src": "/icon/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
