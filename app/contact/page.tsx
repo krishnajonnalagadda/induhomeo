@@ -97,12 +97,22 @@ export default function ContactPage() {
                 Address
               </h3>
               <address className="mt-2 not-italic text-[var(--foreground)]">
-                #174, 2nd Floor, BJR Complex
+                Yashoda Classics, Ground Floor
                 <br />
-                Air Bypass Road, New Balaji Colony
+                Air Bypass Rd, near Bashyam school
                 <br />
-                Beside Sagar Honda, Tirupati - 517 502
+                New Balaji Colony, Tirupati, Andhra Pradesh 517502
               </address>
+              <p className="mt-3">
+                <a
+                  href="https://share.google/Ewh01Oh06mOvdbxlf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-[var(--primary)] hover:underline"
+                >
+                  View on Google Maps
+                </a>
+              </p>
             </div>
           </div>
         </GlassCard>

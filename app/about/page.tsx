@@ -39,11 +39,11 @@ export default function AboutPage() {
           B.H.M.S, M-D (Hom) · 21 years of experience in homeopathy
         </p>
         <p className="mt-4 text-[var(--foreground)]">
-          Dr. Indu Rekha chose homeopathy after being inspired by Dr.
-          Radhakrishna Jonnalagadda, a renowned homeopath in Karnataka,
-          Tumkur district. She was moved by the gentle cures and the
-          happiness of his patients, and that experience led her to make
-          homeopathy her chosen system of care.
+          Dr. Indu Rekha chose homeopathy after being inspired by her
+          grandfather, Dr. Radhakrishna Jonnalagadda, a renowned homeopath
+          in Karnataka, Tumkur district. She was moved by the gentle cures
+          and the happiness of his patients, and that experience led her to
+          make homeopathy her chosen system of care.
         </p>
       </GlassCard>
 

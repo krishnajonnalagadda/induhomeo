@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { GlassCard } from "@/components/GlassCard";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 import { Heart, Baby } from "lucide-react";
@@ -6,8 +7,20 @@ import { Heart, Baby } from "lucide-react";
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <section className="relative overflow-hidden px-4 py-16 sm:px-6 sm:py-24">
-        <div className="mx-auto max-w-4xl text-center">
+      <section className="relative overflow-hidden">
+        <div className="relative aspect-[21/9] w-full bg-[var(--primary)]/10 sm:aspect-[3/1]">
+          <Image
+            src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=1200&q=80"
+            alt="Woman and child – gentle care at IH Clinic"
+            fill
+            className="object-cover object-center"
+            sizes="100vw"
+            priority
+            unoptimized={false}
+          />
+          <div className="absolute inset-0 bg-[var(--foreground)]/20" aria-hidden />
+        </div>
+        <div className="mx-auto max-w-4xl px-4 py-12 text-center sm:px-6 sm:py-16">
           <h1 className="text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl md:text-5xl">
             Women & child care in homeopathy
           </h1>
@@ -19,6 +32,9 @@ export default function Home() {
             gentle, individualised homeopathic care. From PCOD and fertility to
             recurrent infections and developmental support—we&apos;re here for you
             and your family.
+          </p>
+          <p className="mx-auto mt-4 max-w-xl text-sm text-[var(--muted-foreground)]">
+            21 years of experience · Constitutional approach · Aude Sapere
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <WhatsAppButton />
@@ -87,6 +103,15 @@ export default function Home() {
           </p>
           <p className="mt-2 text-base text-[var(--foreground)]">
             Trusted by families in Tirupati for focused, gentle homeopathic care.
+          </p>
+          <p className="mt-4 text-sm text-[var(--muted-foreground)]">
+            <Link href="/about" className="text-[var(--primary)] hover:underline">
+              About Dr. Indu Rekha
+            </Link>
+            {" · "}
+            <Link href="/contact" className="text-[var(--primary)] hover:underline">
+              Contact & location
+            </Link>
           </p>
         </div>
       </section>

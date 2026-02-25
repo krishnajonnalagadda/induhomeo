@@ -9,9 +9,9 @@ const localBusiness = {
   email: "drindushomeopathy@gmail.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "#174, 2nd Floor, BJR Complex, Air Bypass Road, New Balaji Colony, Beside Sagar Honda",
+    streetAddress: "Yashoda Classics, Ground Floor, Air Bypass Rd, near Bashyam school, New Balaji Colony",
     addressLocality: "Tirupati",
-    postalCode: "517 502",
+    postalCode: "517502",
     addressRegion: "Andhra Pradesh",
     addressCountry: "IN",
   },

@@ -51,11 +51,18 @@ export function Footer() {
               Contact
             </h3>
             <p className="mt-2 text-sm text-[var(--muted-foreground)]">
-              #174, 2nd Floor, BJR Complex
-              <br />
-              Air Bypass Road, New Balaji Colony
-              <br />
-              Beside Sagar Honda, Tirupati - 517 502
+              Yashoda Classics, Ground Floor, Air Bypass Rd, near Bashyam
+              school, New Balaji Colony, Tirupati, AP 517502
+            </p>
+            <p className="mt-2 text-sm">
+              <a
+                href="https://share.google/Ewh01Oh06mOvdbxlf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--primary)] hover:underline"
+              >
+                Google Maps
+              </a>
             </p>
             <p className="mt-2 text-sm">
               <a
