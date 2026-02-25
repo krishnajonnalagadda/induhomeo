@@ -10,7 +10,18 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16">
-      <h1 className="text-3xl font-bold tracking-tight text-[var(--foreground)]">
+      <div className="relative aspect-[3/4] w-full max-w-sm mx-auto overflow-hidden rounded-xl bg-[var(--primary)]/10">
+        <Image
+          src="/images/dr-indu-rekha.jpg"
+          alt="Dr. Indu Rekha Jonnalagadda, Founder, IH Clinic"
+          fill
+          className="object-cover object-center"
+          sizes="(max-width: 640px) 100vw, 384px"
+          priority
+          unoptimized
+        />
+      </div>
+      <h1 className="mt-8 text-3xl font-bold tracking-tight text-[var(--foreground)]">
         About IH Clinic
       </h1>
       <p className="mt-4 text-lg text-[var(--muted-foreground)]">
@@ -21,33 +32,19 @@ export default function AboutPage() {
         <h2 className="text-xl font-semibold text-[var(--foreground)]">
           Founder
         </h2>
-        <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-start">
-          <div className="relative h-56 w-full shrink-0 overflow-hidden rounded-lg bg-[var(--primary)]/10 sm:h-64 sm:w-56">
-            <Image
-              src="/images/dr-indu-rekha.jpg"
-              alt="Dr. Indu Rekha Jonnalagadda, Founder, IH Clinic"
-              fill
-              className="object-cover object-top"
-              sizes="(max-width: 640px) 100vw, 224px"
-              priority
-            />
-          </div>
-          <div className="min-w-0 flex-1">
-            <p className="font-semibold text-[var(--foreground)]">
-              Dr. Indu Rekha Jonnalagadda
-            </p>
-            <p className="mt-1 text-sm text-[var(--muted-foreground)]">
-              B.H.M.S, M-D (Hom) · 21 years of experience in homeopathy
-            </p>
-            <p className="mt-4 text-[var(--foreground)]">
-              Dr. Indu Rekha chose homeopathy after being inspired by Dr.
-              Radhakrishna Jonnalagadda, a renowned homeopath in Karnataka,
-              Tumkur district. She was moved by the gentle cures and the
-              happiness of his patients, and that experience led her to make
-              homeopathy her chosen system of care.
-            </p>
-          </div>
-        </div>
+        <p className="mt-4 font-semibold text-[var(--foreground)]">
+          Dr. Indu Rekha Jonnalagadda
+        </p>
+        <p className="mt-1 text-sm text-[var(--muted-foreground)]">
+          B.H.M.S, M-D (Hom) · 21 years of experience in homeopathy
+        </p>
+        <p className="mt-4 text-[var(--foreground)]">
+          Dr. Indu Rekha chose homeopathy after being inspired by Dr.
+          Radhakrishna Jonnalagadda, a renowned homeopath in Karnataka,
+          Tumkur district. She was moved by the gentle cures and the
+          happiness of his patients, and that experience led her to make
+          homeopathy her chosen system of care.
+        </p>
       </GlassCard>
 
       <GlassCard className="mt-6">
