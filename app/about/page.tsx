@@ -24,7 +24,7 @@ export default function AboutPage() {
         <div className="mt-6 flex flex-col gap-6 sm:flex-row sm:items-start">
           <div className="relative h-56 w-full shrink-0 overflow-hidden rounded-lg bg-[var(--primary)]/10 sm:h-64 sm:w-56">
             <Image
-              src="/images/dr-indu-rekha.png"
+              src="/images/dr-indu-rekha.jpg"
               alt="Dr. Indu Rekha Jonnalagadda, Founder, IH Clinic"
               fill
               className="object-cover object-top"
